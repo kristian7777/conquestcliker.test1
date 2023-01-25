@@ -1,0 +1,28 @@
+
+public class MyConditions {
+
+	public static void main(String[] args) {
+		int number=(int) (Math.random()*50);
+		if(number>25) {
+			System.out.println("Number is greater than 25");
+		}
+		else if (number<25) {
+			System.out.println("Number is less than 25");
+		}
+		else {
+			System.out.println("Number is exactly 25");
+		}
+		System.out.println(number);
+		
+		String employee="Manag";
+		if(employee=="Receptionist") {
+			System.out.println("Your salary is $3000");
+		}
+		else if (employee=="Manager") {
+			System.out.println("Your salary is $8000");
+		}
+		else {
+			System.out.println("Not a position in the company");
+		}
+	}
+}

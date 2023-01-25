@@ -1,0 +1,58 @@
+// Exercise 1
+//public class MyConditions {
+//
+//	public static void main(String[] args) {
+//		int number=(int) (Math.random()*50);
+//		if(number>25) {
+//			System.out.println("Number is greater than 25");
+//		}
+//		else if (number<25) {
+//			System.out.println("Number is less than 25");
+//		}
+//		else {
+//			System.out.println("Number is exactly 25");
+//		}
+//		System.out.println(number);
+//		}
+//	}
+
+
+//Do it yourself
+
+//public class MyConditions {
+//
+//	public static void main(String[] args) {
+//		String employee="Manager";
+//		if(employee=="Receptionist") {
+//			System.out.println("Your salary is $3000");
+//		}
+//		else if (employee=="Manager") {
+//			System.out.println("Your salary is $8000");
+//		}
+//		else {
+//			System.out.println("Not a position in the company");
+//		}
+//	}
+//}
+//Exercise 2
+
+public class MyConditions {
+
+	public static void main(String[] args) {
+		String name="John";
+		String lastname="Greathouse";
+		
+		if(name=="John" && lastname=="Greathouse") {
+			System.out.println(name+" "+ lastname);
+		}
+		
+		if(name!="John" | lastname!="Greathouse") {
+			System.out.println("Name or last name does not match");
+		}
+		
+		if(name == "John" ^ lastname=="") {
+			System.out.println("One of the parts are correct");
+		}
+		
+	}
+}
